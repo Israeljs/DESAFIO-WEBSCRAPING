@@ -8,6 +8,7 @@ Este é um sistema de Web scraping em Python para extrair informações de um si
 - Selenium
 - ChromeDriver
 - Pandas
+- Anaconda
 - Google Chrome
 
 ## Instalação
