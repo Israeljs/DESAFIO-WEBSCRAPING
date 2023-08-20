@@ -26,12 +26,10 @@ def get_posts(url):
     df.to_csv('posts.csv')   
 
     driver.quit()
-    return df
 
 
 def main():
-    data = get_posts("https://gizmodo.uol.com.br/")
-    print(data)
+    get_posts("https://gizmodo.uol.com.br/")
 
 
 if __name__ == '__main__':

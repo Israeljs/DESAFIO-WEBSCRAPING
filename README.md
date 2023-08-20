@@ -26,6 +26,11 @@ Este é um sistema de Web scraping em Python para extrair informações de um si
 
 3. Instale o Google Chrome, se já não estiver instalado na sua máquina.
    
+5. Ativar o ambiente virtual:
+
+   ```
+   source .venv/bin/activate
+   ```
 
 5. Execulte o programa:
 
@@ -35,4 +40,3 @@ Este é um sistema de Web scraping em Python para extrair informações de um si
 <div align="center">
 <img src="https://github.com/Israeljs/DESAFIO-WEBSCRAPING/assets/55467510/ccd02a80-c3c5-467b-b5b2-cad20378726c" width="920px" />
 </div>
-<!-- ![Captura de tela de 2023-08-19 22-41-28](https://github.com/Israeljs/DESAFIO-WEBSCRAPING/assets/55467510/ccd02a80-c3c5-467b-b5b2-cad20378726c) -->
