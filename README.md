@@ -18,20 +18,20 @@ Este é um sistema de Web scraping em Python para extrair informações de um si
    ```
    git clone https://github.com/Israeljs/DESAFIO-WEBSCRAPING.git
    ```
+2. Ativar o ambiente virtual:
 
-2. Instale os pacotes Python necessários:
+   ```
+   source .venv/bin/activate
+   ```
+
+3. Instale os pacotes Python necessários:
 
    ```
    pip install -r requirements.txt
    ```
 
-3. Instale o Google Chrome, se já não estiver instalado na sua máquina.
+4. Instale o Google Chrome, se já não estiver instalado na sua máquina.
    
-5. Ativar o ambiente virtual:
-
-   ```
-   source .venv/bin/activate
-   ```
 
 5. Execulte o programa:
 
