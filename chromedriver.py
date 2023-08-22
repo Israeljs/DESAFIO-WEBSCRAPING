@@ -3,6 +3,9 @@ import pandas as pd
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
 
+def create_csv(posts):
+    df = pd.DataFrame(posts, columns=['titulo', 'data', 'resumo'])
+    df.to_csv('posts.csv') 
 
 def get_posts(url):
     browser_options = ChromeOptions()
@@ -22,8 +25,7 @@ def get_posts(url):
 
         posts.append(news_items)
 
-    df = pd.DataFrame(posts, columns=['titulo', 'data', 'resumo'])
-    df.to_csv('posts.csv')   
+    create_csv(posts)
 
     driver.quit()
 
