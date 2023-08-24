@@ -1,6 +1,7 @@
 # DESAFIO-WEBSCRAPING
 
 Este é um sistema de Web scraping em Python para extrair informações de um site de noticias e salvar as dez primeirtas postagens em um arquivo CSV.
+
 Na sua fase de desenvolvimento, código contido na branch "dev", o sistema salva apenas as dez primeirtas notícias, excluindo as postagens da categoria "Ofertas".
 
 ## Tecnologias
